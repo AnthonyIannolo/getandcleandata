@@ -2,8 +2,7 @@
 
 ##  Project Overview
 
-Assignment is to create a tidy dataset from Smartphone Data on the UCI Machine Learning Repository.
-The data includes user activity observations from accelerometer on a Samsung Galaxy S Smartphone.
+Assignment is to create a tidy dataset from Smartphone Data on the UCI Machine Learning Repository [1]. The data includes user activity observations from accelerometer on a Samsung Galaxy S Smartphone.
 
 ##  Raw Data Set Information from UCI Machine Learning Repository:
 
@@ -18,6 +17,24 @@ For each record in the dataset the following was provided:
 - A 561-feature vector with time and frequency domain variables. 
 - Its activity label of the 6 described above. 
 - An identifier of the subject volunteer who carried out the experiment.
+
+Here is a description of the files read in:
+
+- 'features.txt': List of all features.
+
+- 'activity_labels.txt': Links the class labels with their activity name.
+
+- 'train/X_train.txt': Training set.
+
+- 'train/y_train.txt': Training labels.
+
+- 'train/subject_train.txt': Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30.
+
+- 'test/X_test.txt': Test set.
+
+- 'test/y_test.txt': Test labels.
+
+- 'test/subject_test.txt': Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30. 
 
 ## Steps to Get from Raw Data to Tidy Data
 
@@ -47,3 +64,7 @@ Tidy up the variable names by removing parentheses, include full words for abbre
 ###5.  Create a second, independent tidy data set with the average of each variable for each Activity and Subject.
 Average of each variable by Activity and subject results in a DataFrame of 180 Observations of 81 variables.
 
+
+##  References
+
+[1] Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012
