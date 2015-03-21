@@ -18,11 +18,11 @@ The major steps in the course assignment script(run_analysis.R) to create the Ti
 
 ##  Contents of this Repository
 
-README.md
+- README.md
 
-run_analysis.R:  R script that creates the dataset by executing steps described above.
+- run_analysis.R:  R script that creates the dataset by executing steps described above.
 
-CodeBook.md:     Describes steps to get from raw data to tidy data plus data descriptions.
+- CodeBook.md:     Describes steps to get from raw data to tidy data plus data descriptions.
 
 ##  How to use this script
 1. First Download the files using this link.
